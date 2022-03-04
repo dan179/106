@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 5px;
+
+}
+
+main {
+    display: flex;
+    padding-top: 15px;
+    background-image: url("../img/sky.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#list {
+    flex: 3;
+}
+#form h3 {
+    text-align: center;
+    padding: 0;
+
+}
+#form {
+    flex: 2;
+    padding: 0;
+    margin: 0;
+}
+
+
+#iImportant {
+    font-size: 32px;
+    color: blue;
+    cursor: pointer;
+}
+
+#iImportant.fas {
+    color: red;
+}
+
+.control {
+    background-color: rgba(252, 250, 250, 0.74);
+    flex: 2;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 100%;
+
+}
+
+control label {
+    font-weight: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display:block;
+    background-color:aqua;
+}
+
+.control-save {
+    text-align: center;
+}
+
+
+.control-save button {
+    font-weight: 180px;
+}
+
+.class {
+    padding: 0;
+}
